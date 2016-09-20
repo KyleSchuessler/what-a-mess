@@ -1,0 +1,77 @@
+/* form styles below */ 
+
+ 
+
+form {
+	margin-top: 1em;
+	border: double 2px #2d1606;
+	padding: 1em;
+	font-size: 16px;
+}
+
+#formcontainer {
+	width: 47%;
+	
+}
+
+.labelfloatleft label {
+	width: 100px;
+	margin-right: 10px;
+	color: #2d1606;
+	float: left;
+	text-align: right;
+}
+
+.labelfloatleft input {
+	display: block;
+}
+
+fieldset{
+	margin-bottom: 1em;
+	border: double 2px #2d1606;
+	background: cornflowerblue;
+	display: block;
+}
+
+legend {
+	background: #2d1606;
+    padding: 0px 10px;
+    box-shadow: inset 0 -5px 5px peru;
+	text-shadow: 1px 1px 2px peru;
+	color: cornflowerblue;
+	font-weight: bold;
+}
+
+label {
+	color: #2d1606;
+}
+
+input.text {
+	background-color: khaki;
+}
+
+fieldset.group {
+	float: none;
+	border: 0;
+	margin: 2em;
+	padding: 0;
+}
+
+textarea {
+	border: solid 2px #2d1606;
+	display: block;
+}
+
+select {
+	display: block;
+}
+
+input.button {
+	color: cornflowerblue;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 4px;
+	background-color: #2d1606;
+	border: 1px solid cornflowerblue;
+	display: inline;
+}
